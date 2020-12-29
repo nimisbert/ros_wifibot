@@ -1,0 +1,10 @@
+<launch>
+	<node pkg="wifibot" type="i2c" name="i2c" />
+	<node pkg="wifibot" type="motor" name="motor_Bottom_Left" args="motor BL"/>
+	<node pkg="wifibot" type="motor" name="motor_Top_Left" args="motor TL"/>
+	<node pkg="wifibot" type="motor" name="motor_Bottom_Right" args="motor BR"/>
+	<node pkg="wifibot" type="motor" name="motor_Top_Right" args="motor TR"/>
+	<node pkg="wifibot" type="sharp" name="sharp" args="sharp 08"/>
+	#<node pkg="wifibot" type="user_sharp" name="user_sharp" args="sharp 08"/>
+	
+</launch>

@@ -1,0 +1,17 @@
+<package format="2">
+  <name>wifibot</name>
+  <version>0.0.1</version>
+  <description>
+  This package provides a link between ROS and the physical i2c bus on a RaspberryPi with Raspbian.
+  </description>
+  <maintainer email="n.misbert@yahoo.fr">PR-wifibot</maintainer>
+  <license>Beerware</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+</package>
